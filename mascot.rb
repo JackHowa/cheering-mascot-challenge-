@@ -15,7 +15,19 @@ end
 # passed to the method
 
 # this is where the rspec will go
+
+# known cheers - known knowns ...
+#  expect(mascot_sign_for "RED HOT").to eq "H-O-T!"
+          # expect(mascot_sign_for "DO IT AGAIN").to eq "Go, Fight, Win"
+          # expect(mascot_sign_for "2 BITS").to eq "Holler!"
+          # expect(mascot_sign_for "STOMP YOUR FEET").to eq "STOMP!"
 def mascot_sign_for(input)
+  case cheers
+  when "DO IT AGAIN"
+    puts "Go, Fight, Win"
+  else
+  puts "Go Team!"
+end
 
 end
 
