@@ -1,9 +1,9 @@
 # Get input from the user:  the cheer
 # The method should get user input and return that input.
 def call_out_cheer
-  puts "What's that cheer ya' want?"
-  cheer = gets.chomp
-  puts "#{cheer}"
+  # puts "What's that cheer ya' want?"
+  gets.chomp
+
 end
 
 # driver code
@@ -14,7 +14,7 @@ end
 # Determine the mascot's response based on the argument
 # passed to the method
 
-
+# this is where the rspec will go
 def mascot_sign_for(input)
 
 end
