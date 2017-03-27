@@ -14,18 +14,23 @@ end
 # Determine the mascot's response based on the argument
 # passed to the method
 
-# e'll use the display method when we need to print information
+
+def mascot_sign_for(input)
+
+end
+
+
+# Print the argument passed to the method
+
+# We'll use the display method when we need to print information
 # for the user to see—for example, the sign the mascot holds up.
 # The method should take an argument and print it out.
-def mascot_sign_for(input)
-  puts "#{input}"
+def display(response)
+  puts "#{res}"
 end
 
 # driver code
-mascot_sign_for("yay")
-# Print the argument passed to the method
-def display(response)
-end
+# display("yay")
 
 # This method will control the flow of the application,
 # making use of the other three methods.
