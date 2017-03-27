@@ -27,6 +27,7 @@ describe "mascot helpers" do
     end
   end
 
+# start new display
   describe "display" do
     it "outputs its argument to the console" do
       expect { display "Go Team!" }.to output(/Go Team!/).to_stdout

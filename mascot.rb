@@ -26,7 +26,7 @@ end
 # for the user to see—for example, the sign the mascot holds up.
 # The method should take an argument and print it out.
 def display(response)
-  puts "#{res}"
+  puts "#{response}"
 end
 
 # driver code
