@@ -8,13 +8,21 @@ end
 
 # driver code
 
-call_out_cheer()
+# with no argument as the word
+# call_out_cheer()
 
 # Determine the mascot's response based on the argument
 # passed to the method
+
+# e'll use the display method when we need to print information
+# for the user to see—for example, the sign the mascot holds up.
+# The method should take an argument and print it out.
 def mascot_sign_for(input)
+  puts "#{input}"
 end
 
+# driver code
+mascot_sign_for("yay")
 # Print the argument passed to the method
 def display(response)
 end
